@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>
+    {% if page.pack-title %}
+      {{ page.pack-title }} download page
+    {% else %}
+      {{ page.title }}
+    {% endif %}</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="{{ page.css }}">
+  </head>
+  <body>
+    {{ content }}
+  </body>
+</html>

@@ -1,19 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" type="text/css" href="../css/main.css"
-  </head>
-  <body>
-    You can choose from the following mirrors to download {{ packtitle }}:<br>
-    <a href="{{ gdrive-mirror }}">Google Drive</a><br>
-    <a href="{{ mediafire-mirror }}">MediaFire</a><br>
-    <br>
-    I supply the download like this as it allows me to easily keep the links updated if needed without having to revisit every place where I shared it. If a link breaks, please let me know.<br>
-    CRC: {{ crc }}<br>
-    MD5: {{ md5 }}<br>
-    <br>
-    Links last updated on {{ link-update-date }}
-  </body>
-</html>
+---
+layout: default
+---
+
+You can choose from the following mirrors to download {{ page.pack-title }}:<br>
+<a href="{{ page.gdrive-mirror }}">Google Drive</a><br>
+<a href="{{ page.mediafire-mirror }}">MediaFire</a><br>
+<br>
+I supply the download like this as it allows me to easily keep the links updated if needed without having to revisit every place where I shared it. If a link breaks, please let me know.<br>
+CRC: {{ page.crc }}<br>
+MD5: {{ page.md5 }}<br>
+<br>
+Links last updated on {{ page.link-update-date }}
