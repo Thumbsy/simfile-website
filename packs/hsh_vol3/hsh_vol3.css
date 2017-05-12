@@ -28,6 +28,14 @@ a:visited {
     color: #D7DF01;
 }
 
+table {
+    background-color: #bca8d9;
+}
+
+th {
+    text-align: left;
+}
+
 
 
 /*=================
@@ -124,12 +132,33 @@ a:visited {
     background-color: #FFDCE6;
     width: 100%;
     min-height: 500px;
-    text-align: center;
 }
 
 .tracklist_wrapper {
     padding-top: 100px;
+    max-width: 70%;
     margin: auto;
-    width: 60%;
+}
+
+.tracklist_header {
+    margin: 0 auto;
     text-align: center;
+    font-family: 'MotionControl';
+    font-size: 50px;
+    text-shadow: 2px 2px #000;
+    color: #fff;
+}
+
+.tracklist_table {
+    font-size: 16px;
+    min-width: 800px;
+    margin: auto;
+}
+
+.tracklist_row1 {
+    background-color: /*#fff*/ none;
+}
+
+.tracklist_row2 {
+    background-color: /*#FFFCDF*/ none;
 }
