@@ -1,18 +1,18 @@
 @charset "utf-8";
 
 body {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    margin: 100px auto;
-    width: 70%;
-    background-color: #686463;
-    color: #fff;
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
+  margin: 100px auto;
+  width: 70%;
+  background-color: #686463;
+  color: #fff;
 }
 
 a {
-    text-decoration: none;
-    color: #FFFF00;
+  text-decoration: none;
+  color: #FFFF00;
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }

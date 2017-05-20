@@ -1,39 +1,39 @@
 @charset "utf-8";
 
-/*=================
+/*===================================================
   Author: Thumbsy (https://twitter.com/Thumbubu)
-  =================*/
+  ===================================================*/
 
 @font-face {
-    font-family: 'MotionControl';
-    src: url(motioncontrol-bold.otf);
+  font-family: 'MotionControl';
+  src: url(motioncontrol-bold.otf);
 }
 
 /* common */
 body {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    background-color: #bca8d9;
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
+  background-color: #bca8d9;
 }
 
 a {
-    text-decoration: none;
-    color: #FFFF00;
+  text-decoration: none;
+  color: #FFFF00;
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 a:visited {
-    color: #D7DF01;
+  color: #D7DF01;
 }
 
 table {
-    background-color: #bca8d9;
+  background-color: #bca8d9;
 }
 
 th {
-    text-align: left;
+  text-align: left;
 }
 
 
@@ -42,24 +42,24 @@ th {
   Top/title
   =================*/
 .top {
-    background-color: #bca8d9;
-    width: 100%;
+  background-color: #bca8d9;
+  width: 100%;
 }
 
 .top_title {
-    color: #bca8d9;
-    margin-top: 75px;
-    text-align: center;
-    background-color: #fff;
-    
+  color: #bca8d9;
+  margin-top: 75px;
+  text-align: center;
+  background-color: #fff;
+  
 }
 
 .banner {
-    display: block;
-    margin: auto;
-    max-height: 300px;
-    max-width: 100%;
-    z-index: 1;
+  display: block;
+  margin: auto;
+  max-height: 300px;
+  max-width: 100%;
+  z-index: 1;
 }
 
 
@@ -68,59 +68,59 @@ th {
   Info / download
   =================*/
 .info {
-    position:relative;
-    background-color: #bca8d9;
-    color: #fff;
-    width: 100%;
-    text-align: center;
-    z-index: 10;
-    box-shadow: 0px 0px 25px 5px rgba(0,0,0,0.7);
+  position:relative;
+  background-color: #bca8d9;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  z-index: 10;
+  box-shadow: 0px 0px 25px 5px rgba(0,0,0,0.7);
 }
 
 .info_jk {
-    display: inline-block;
-    margin: 75px;
+  display: inline-block;
+  margin: 75px;
 }
 
 #jacket {
-    max-width: 400px;
-    min-width: 100px;
-    max-height: 400px;
-    min-height: 100px;
-    box-shadow: 0px 0px 25px 1px rgba(0,0,0,0.7);
+  max-width: 400px;
+  min-width: 100px;
+  max-height: 400px;
+  min-height: 100px;
+  box-shadow: 0px 0px 25px 1px rgba(0,0,0,0.7);
 }
 
 #jacket:hover {
-    animation: jk_intensifies 0.25s step-end infinite;
+  animation: jk_intensifies 0.25s step-end infinite;
 }
 
 @keyframes jk_intensifies {
-    0%   {transform:translate(10px,10px);}
-    20%  {transform:translate(-3px,0px);}
-    40%  {transform:translate(4px,-5px);}
-    60%  {transform:translate(-10px,3px);}
-    80%  {transform:translate(-4px,-1px);}
-    100% {transform:translate(3px,3px);}
+  0%   {transform:translate(10px,10px);}
+  20%  {transform:translate(-3px,0px);}
+  40%  {transform:translate(4px,-5px);}
+  60%  {transform:translate(-10px,3px);}
+  80%  {transform:translate(-4px,-1px);}
+  100% {transform:translate(3px,3px);}
 }
 
 .info_text {
-    margin-top: 75px;
-    text-align: left;
-    height: 100%;
-    width: auto;
-    vertical-align: top;
-    display: inline-block;
+  margin-top: 75px;
+  text-align: left;
+  height: 100%;
+  width: auto;
+  vertical-align: top;
+  display: inline-block;
 }
 
 .info1 {
-    font-family: 'MotionControl';
-    font-size: 50px;
-    text-shadow: 2px 2px #000;
+  font-family: 'MotionControl';
+  font-size: 50px;
+  text-shadow: 2px 2px #000;
 }
 
 .info2 {
-    font-family: 'Impact', 'Charcoal', sans-serif;
-    font-size: 30px;
+  font-family: 'Impact', 'Charcoal', sans-serif;
+  font-size: 30px;
 }
 
 
@@ -129,41 +129,41 @@ th {
   Tracklist
   =================*/
 .tracklist {
-    background-color: #FFDCE6;
-    width: 100%;
-    min-height: 500px;
+  background-color: #FFDCE6;
+  width: 100%;
+  min-height: 500px;
 }
 
 .tracklist_wrapper {
-    padding-top: 100px;
-    max-width: 70%;
-    margin: auto;
+  padding-top: 100px;
+  max-width: 70%;
+  margin: auto;
 }
 
 .tracklist_header {
-    margin: 0 auto;
-    text-align: center;
-    font-family: 'MotionControl';
-    font-size: 50px;
-    text-shadow: 2px 2px #000;
-    color: #fff;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'MotionControl';
+  font-size: 50px;
+  text-shadow: 2px 2px #000;
+  color: #fff;
 }
 
 .tracklist_table {
-    font-size: 16px;
-    min-width: 800px;
-    margin: auto;
+  font-size: 16px;
+  min-width: 800px;
+  margin: auto;
 }
 
 .tracklist_row1 {
-    background-color: /*#fff*/ none;
+  background-color: /*#fff*/ none;
 }
 
 .tracklist_row2 {
-    background-color: /*#FFFCDF*/ none;
+  background-color: /*#FFFCDF*/ none;
 }
 
 .yt-preview {
-    width: 640px;
-	margin: 20px auto;
+  width: 640px;
+  margin: 20px auto;
 }
