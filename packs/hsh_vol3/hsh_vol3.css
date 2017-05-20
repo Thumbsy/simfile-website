@@ -132,6 +132,7 @@ th {
   background-color: #FFDCE6;
   width: 100%;
   min-height: 500px;
+  padding-bottom: 40px;
 }
 
 .tracklist_wrapper {
